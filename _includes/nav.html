@@ -1,0 +1,21 @@
+<div id="nav-wrapper">
+  <ul id="nav">
+      
+        {% if page.url == '/' %}
+          <li class="active">
+        {% else %}
+          <li>
+        {% endif %}
+            <a href="/">Home</a>
+          </li>
+
+        {% if page.url == '/about/' %}
+          <li class="activenav">
+        {% else %}
+          <li class="basicnav">
+        {% endif %}
+            <a href="/about/">About</a>
+          </li>
+  </ul>
+</div>
+
