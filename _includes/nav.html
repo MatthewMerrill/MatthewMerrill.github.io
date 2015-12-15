@@ -1,7 +1,8 @@
 <div id="nav-wrapper">
-  <ul id="nav">
+  <div id="nav-inner">
+    <ul id="nav">
       
-        {% if page.url == '/' %}
+        {% if includes.url == '/' %}
           <li class="active">
         {% else %}
           <li>
@@ -9,13 +10,24 @@
             <a href="/">Home</a>
           </li>
 
-        {% if page.url == '/about/' %}
+        {% for sect in site.sects %}
+		  {% if includes.url == sect.url %}
+		    <li class="activenav">
+		  {% else %}
+		    <li class="basicnav">
+		  {% endif %}
+		      <a href="{{ sect.url }}">{{ sect.title }}</a>
+		    </li>          
+        {% endfor %}
+          
+        {% if includes.url == '/about/' %}
           <li class="activenav">
         {% else %}
           <li class="basicnav">
         {% endif %}
             <a href="/about/">About</a>
           </li>
-  </ul>
+    </ul>
+  </div>
 </div>
 

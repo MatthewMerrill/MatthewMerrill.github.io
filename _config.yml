@@ -15,5 +15,28 @@ url: "http://MatthewMerrill.GitHub.io" # the base hostname & protocol for your s
 twitter_username: mattmerr47
 github_username:  MatthewMerrill
 
+defaults:
+  -
+    scope:
+      path: "raspi"
+      type: "posts"
+    values:
+      layout: "post"
+
+sects:
+  - Blog:
+    title: 'Blog'
+    description: 'Random Ramblings of a Developer'
+    url: '/blog/'
+  - RasberryPi:
+    title: 'Raspberry Pi'
+    description: 'Assorted Electronics / Pen Plotting projects'
+    url: '/raspberrypi/'
+  - Minecraft:
+    title: 'Minecraft'
+    description: 'Modding / Server Plugin / API tutorials'
+    url: '/minecraft/'
+    
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title/

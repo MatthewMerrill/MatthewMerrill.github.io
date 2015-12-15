@@ -5,25 +5,20 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for sect in site.sects %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-       <a id="designer-templates" class="anchor" href="#{{ post.url | prepend: site.baseurl }}" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+       <a id="designer-templates" class="anchor" href="#{{ sect.url | prepend: site.baseurl }}" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+          <a class="post-link" href="{{ sect.url | prepend: site.baseurl }}">{{ sect.title }}</a>
         </h2>
         
-        {% if post.description %}
-        <p>{{ post.description }}</p>
+        {% if sect.description %}
+        <p>{{ sect.description }}</p>
         {% endif %}        
-
+        
         </span>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
 

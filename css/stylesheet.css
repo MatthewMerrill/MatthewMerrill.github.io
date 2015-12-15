@@ -479,19 +479,39 @@ a:hover {
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 740px;
   margin: 0 auto;
 }
 
+#nav-wrapper{
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+#nav-inner{
+    width:50%;
+}
 
 ul#nav {
   font-family: Verdana;
   font-size:14px;
-  list-style:none;
   margin:0 auto;
-  padding:0;
-  width:455px;
   overflow: auto;
+  list-style:none;
+  padding:0;
 }
 
 ul#nav li {
