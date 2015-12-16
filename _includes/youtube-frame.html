@@ -1,0 +1,4 @@
+<iframe 
+{% if include.small %}{% else %}width="560" height="315"{% endif %}
+src="https://www.youtube.com/embed/{% if include.video %}{{ include.video }}{% else %}dQw4w9WgXcQ{% endif %}"
+frameborder="0" allowfullscreen></iframe>

@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Raspberry Pi test post!"
-description: A test post. Hopefully this is a Raspberry Pi post?
-date:   2015-12-15 3:03:00 -0800
-categories: raspberrypi
----
-testpost :)
