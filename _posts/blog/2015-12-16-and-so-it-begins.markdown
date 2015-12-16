@@ -2,7 +2,7 @@
 layout: post
 title:  "And so it begins"
 description: The beginnings of a website
-date:   2015-12-16 02:00:00 -0800
+date:   2015-12-16 2:00:00 -0800
 categories: blog
 sourcecode:
   - 
