@@ -15,6 +15,9 @@ sourcecode:
 date:   2015-12-16 2:00:00 -0800
 categories: raspberrypi
 ---
+
+<section id="main-content">
+
 {% include textchunk.html title="This Semester..." content='Returning from winter break in my junior year of high school, my Physics teacher Mr. Wright made an annoucement:<q>This semester, each of you will be presenting projects in the <a href="http://www.folsomtelegraph.com/article/students-apply-skills-engineering-challenge"> 2014 Folsom Engineering Challenge</a>. By February, have a project in mind or pick one from the project lottery.</q> Because of my familiarity with building Java applications, I decided a Raspberry Pi project was the way to go. But what could I build?' %}
 
 {% include textchunk.html title="Tic-Tac-Toe?" content="Perhaps a robot to play tic-tac-toe against a human? This got me thinking. How could I move an arm along X and Y axes? After a little web surfing, I came across something called a &qpen plotter&q. A pen plotter is similar to a printer, but traces a pen along its path instead of placing dots of ink row-by-row. Pen plotters allow for real-world applications of scalable graphics and quite graceful to watch." float="right" floattitle='Example XY-Plotter by "MakeBlock"' floatvideo='gTH3VjvCfpA' %}
@@ -23,3 +26,5 @@ categories: raspberrypi
 
 <h2>Now I had a game plan!</h2>
 {% include youtube-frame.html video='aZNT5mxjSRw' %}
+
+<section id="main-content">
