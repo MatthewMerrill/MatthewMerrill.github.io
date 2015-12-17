@@ -450,7 +450,8 @@ a:hover {
 .siteheader {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+/*  ew! font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;*/
+  font-family: Georgia,Times,Times New Roman,serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -566,7 +567,7 @@ ul#nav li a:hover {
 
 aside#sidebar {
   float: right;
-  width: 200px;
+  min-width: 200px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
@@ -577,6 +578,47 @@ aside#sidebar {
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
+}
+
+div#floatright {
+  float: right;
+  min-width: 120px;
+  max-width: 200px;
+  min-height: 200px;
+  margin-top: -16px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: right;
+}
+
+div#floatleft {
+  float: left;
+  min-width: 120px;
+  max-width: 200px;
+  min-height: 200px;
+  margin-top: -16px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+div#floatleft img {
+  width: 200px;
+}
+
+div#textchunk {
+  margin-top: 12px;
+}
+
+div#chunk {
+  min-height: 150px;
+  margin-bottom: 48px;
 }
 
 #downloads {

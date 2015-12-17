@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "PiPlotter - Pieces of the Puzzle"
+description: Constructing the plotter and noteworthy hurdles
+sourcecode: 
+  -
+    title: PiPlotter-IO
+    url: https://github.com/MatthewMerrill/PiPlotter-IO
+  -
+    title: PiPlotter-Server
+    url: https://github.com/MatthewMerrill/PiPlotter-Server
+  -
+    title: PiPlotter-Android
+    url: https://github.com/MatthewMerrill/PiPlotter-Android
+date:   2015-12-18 00:00:00 -0800
+categories: raspberrypi
+---
+
+<section id="main-content">
+
+{% include textchunk.html
+	title="A Wheel Tough Problem"
+	content=
+"Now that I had the V-Plotter sketched out, I could begin. Armed with a Raspberry Pi, two stepper motors, and a servo, I could run some simple motor control diagnostics. However, the drawing rig was a challenge to construct. My first hurdle was attaching spools to the stepper motors.
+<br><br>
+The trick to accomplishing this was with a set screw (A secondary screw that bolts in from the side to lock the rotation of the attachment to the stepper). My local hobby store was out of any type of set-screw attachments, but eventually I found a store in stock. The attachments came in the form of model airplane propellers, and had a conventient screw protruding from the end. This could be screwed into a wooden dowel which in turn was glued to an RC wheel. Hacky at best, but that's the spirit!"
+	float="left"
+	floattitle="Spool Solution" 
+	floatcontent=
+		'<img src="/images/raspberrypi/piplotter/spool.jpg">' 
+	%}
+
+{% include textchunk.html
+	title="Render, Man!"
+	content=
+"To confirm my confidence in the algortithms, I wrote up a quick program to trace a Bezier curve and display corresponding cable details."
+	float="right"
+	floattitle="Bezier Concept Render"
+	floatvideo="tzbczSpsVZw"
+	%}
+
+</section>

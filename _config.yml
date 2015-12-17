@@ -6,12 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Matthew Merrill
+title: Pi Plotter
+author: Matthew Merrill
 email: mattmerr47@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Here you can find my latest endeavors from Algorithm Competitions to Raspberry Pi and everything between.
+  The endeavors of Matthew Merrill.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://MatthewMerrill.GitHub.io" # the base hostname & protocol for your site
+url: "http://www.piplotter.com" # the base hostname & protocol for your site
 twitter_username: mattmerr47
 github_username:  MatthewMerrill
 
