@@ -1,0 +1,23 @@
+<div id="chunk">
+
+	{% if include.title %}
+		<h3>{{ include.title }}</h3>
+	{% endif %}
+	
+	{% if include.float %}
+	<div id="float{{ include.float }}">
+		{% if include.floattitle %}<h5>{{ include.floattitle }}</h5>{% endif %}
+    	
+    	{% if include.floatvideo %}
+    		{% include youtube-frame.html small=true video=include.floatvideo %}
+    	{% endif %}
+    	
+    	{{ include.floatcontent }}
+    </div>
+    {% endif %}
+    
+	<div id="textchunk">
+	{{ include.content }}
+	</div>
+
+</div>
