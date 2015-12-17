@@ -7,7 +7,6 @@
 
 # Site settings
 title: Pi Plotter
-author: Matthew Merrill
 email: mattmerr47@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The endeavors of Matthew Merrill.
