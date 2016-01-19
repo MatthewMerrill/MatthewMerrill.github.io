@@ -1,0 +1,23 @@
+---
+layout: post
+title: "About MyGames"
+description: A Minecraft minigame creator
+sourcecode:
+  -
+    title: MyGames
+    url: https://github.com/MatthewMerrill/MyGames
+  -
+    title: MyGamesExamples
+    url: https://github.com/MatthewMerrill/MyGamesExamples
+date:   2016-01-019 00:00:00 -0800
+categories: minecraft
+permalink: "/minecraft/mygames/"
+---
+
+<section id="main-content">
+
+{% include textchunk.html title="What is MyGames?" content="MyGames is a platform for you to quickly and easily make Minecraft server minigames.<br><br>This is accomplished by providing services such as Map management, advanced Weapon event handling, and a myriad of modules you can add to your game in one easy line." float="left" floattitle="Did You Know?" floatcontent='The demand for MyGames arose from my independent contracting work as early as 2013, but the current platform was built over the course of a hackathon!' %}
+
+{% include textchunk.html title="How can I get started?" content="I'm working up a tutorial series, but if you can hardly wait feel free to peruse the GitHub MyGames and MyGamesExamples projects."	%}
+
+</section>
