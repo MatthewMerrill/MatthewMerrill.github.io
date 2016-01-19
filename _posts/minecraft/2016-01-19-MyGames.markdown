@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "MyGames"
-description: A Minecraft minigame creator
-sourcecode:
+title:  "MyGames"
+description: About the Minecraft minigame maker
+sourcecode: 
   -
     title: MyGames
     url: https://github.com/MatthewMerrill/MyGames
   -
     title: MyGamesExamples
     url: https://github.com/MatthewMerrill/MyGamesExamples
-date:   2016-01-019 00:00:00 -0800
+date:   2016-01-19 2:00:00 -0800
 categories: minecraft
 ---
 
