@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About MyGames"
+title: "MyGames"
 description: A Minecraft minigame creator
 sourcecode:
   -
@@ -11,7 +11,6 @@ sourcecode:
     url: https://github.com/MatthewMerrill/MyGamesExamples
 date:   2016-01-019 00:00:00 -0800
 categories: minecraft
-permalink: "/minecraft/mygames/"
 ---
 
 <section id="main-content">
